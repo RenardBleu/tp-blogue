@@ -1,0 +1,50 @@
+:root{
+    --main-color : rgb(92, 23, 11);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(31, 31, 31);
+    color: #ffff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bouton1{
+    padding: 10px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--main-color) 3px solid;
+    padding: 0 100px;
+}
+header .title{
+    display: flex;
+    align-items: center;
+}
+header .icon{
+    background-image: url("/Hooty_Face.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul a{
+    margin: 0 10px;
+}
+main{
+    display: flex;
+}
