@@ -29,9 +29,17 @@ header{
 header .title{
     display: flex;
     align-items: center;
+    transition: all 0.1s ease-in;
+}
+header .title:hover{
+    cursor: pointer;
+    color: var(--main-color);
+}
+header .title:hover > .icon{
+    background-image: url("/icon-hover.png");
 }
 header .icon{
-    background-image: url("/Hooty_Face.webp");
+    background-image: url("/icon.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
