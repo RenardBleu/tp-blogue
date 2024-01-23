@@ -10,7 +10,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background: linear-gradient(to bottom, transparent 30%, rgb(31, 31, 31) 60%),
-    url("/fond.png");
+    url("/image/fond.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,10 +59,10 @@ header .title:hover{
     color: var(--main-color);
 }
 header .title:hover > .icon{
-    background-image: url("/icon-hover.png");
+    background-image: url("/image/icon-hover.png");
 }
 header .icon{
-    background-image: url("/icon.png");
+    background-image: url("/image/icon.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
